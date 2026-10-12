@@ -228,7 +228,7 @@
 
     document.getElementById('saveLetterBtn').addEventListener('click', () => {
         playClickSound();
-        const newRecipient = document.getElementById('recipientInput').value.trim() || 'Happy Birthday Nitu';
+        const newRecipient = document.getElementById('recipientInput').value.trim() || 'You Nitu';
         const newSender = document.getElementById('senderInput').value.trim() || 'JD';
         const newMessage = document.getElementById('messageInput').value.trim() || `Dear ${newRecipient},\n\nThis is my love for you... 🌹\n\nEvery line of code, every pixel, and every beat of this heart is a reminder of how incredibly special you are to me. You make my world so much brighter, and my life complete. ✨\n\nNo matter where life takes us, my heart will always run in an infinite loop for you, beating forever and always. You are my today and all of my tomorrows. 💗💍`;
 
